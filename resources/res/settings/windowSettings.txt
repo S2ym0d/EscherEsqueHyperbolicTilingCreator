@@ -1,0 +1,2 @@
+width: 1884
+height: 1060

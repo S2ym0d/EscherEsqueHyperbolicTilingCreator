@@ -1,0 +1,15 @@
+Schwarz triangle (p, q, r) values:           (7, 3, 2)                # 2 <= p, q, r <= oo, 1/p + 1/q + 1/r < 1, e.g. (7, 3, 2)
+separating sides:                            a b c                    # sides names are a, b and c, e.g. b - only side b is separating, ac - both side a and side c are separating sides
+different images for even and odd tiles:     true                     # true or false
+even tiles image path:                       images/white.png         # image path
+odd tiles image path:                        images/black.png         # image path
+source image local rotation angle:           0.0                      # real value, e.g. 0.0
+source image translation hyperboloid vector: (1.0, 0.0 ,0.0)          # hyperboloid model point (w, x, y) or Gans model point (x, y), e.g. (3.0, 2.0, -2.0)
+source image global rotation angle:          0.0                      # real value, e.g. 0.0
+source image hyperbolic model:               PoincareDisk             # model name: PoincareDisk, BeltramiKleinDisk, PoincareHalfPlane, Gans, Band, AzimuthalEquidistant
+tiling image local rotation angle:           0.0                      # real value, e.g. 0.0
+tiling image translation hyperboloid vector: (1.0, 0.0 , 0.0)         # hyperboloid model point (w, x, y) or Gans model point (x, y), e.g. (3.0, 2.0, -2.0)
+tiling image global rotation angle:          0.0                      # real value, e.g. 0.0
+tiling image hyperbolic model:               PoincareDisk             # model name: PoincareDisk, BeltramiKleinDisk, PoincareHalfPlane, Gans, Band, AzimuthalEquidistant
+tiling algorithm:                            tileInternallyConsistent # tiling algorithm: fast, tileInternallyConsistent
+centering type:                              vertexCentere            # centering type: vertexCentered, footOfAltitudeCentered
